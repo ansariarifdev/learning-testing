@@ -1,0 +1,19 @@
+{
+  "name": "part1-easy",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@jest/globals": "^30.2.0",
+    "ts-jest": "^29.4.6"
+  }
+}
