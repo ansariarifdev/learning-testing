@@ -1,0 +1,27 @@
+{
+  "name": "learing-vitest",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "scripts": {
+    "test": "vitest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@prisma/adapter-pg": "^7.2.0",
+    "@prisma/client": "^7.2.0",
+    "@types/express": "^5.0.6",
+    "@types/supertest": "^6.0.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1",
+    "prisma": "^7.2.0",
+    "supertest": "^7.2.2",
+    "vitest": "^4.0.17",
+    "vitest-mock-extended": "^3.1.0"
+  }
+}
